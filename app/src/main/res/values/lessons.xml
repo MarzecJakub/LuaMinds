@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="l_0">Lekcja 0\nWprowadzenie</string>
+    <string name="l_1">Lekcja 1\nProces instalacji</string>
+    <string name="l_2">Lekcja 2\nPodstawowe funkcje</string>
+    <string name="l_3">Lekcja 3\nZaawansowane funkcje</string>
+    <string name="l_4">Lekcja 4\nDebugowanie </string>
+    <string name="l_5">Lekcja 5\nZmienne </string>
+    <string name="l_6">Lekcja 6\nBramki AND, OR oraz NOT</string>
+    <string name="l_7">Lekcja 7\nWyrażenia warunkowe IF, ElSE, ELSE IF </string>
+    <string name="l_8">Lekcja 8\nPętle REPEAT, FOR, WHILE </string>
+    <string name="l_9">Lekcja 9\nPętla nieskończona </string>
+    <string name="l_10">Lekcja 10\nTworzenie funkcji </string>
+
+
+    <string name="l0_1">Witaj w kursie nauki programowania z wykorzystaniem modyfikacji ComputerCraft w Minecraft! Ten kurs został stworzony z głównie myślą o osobach, które chcą rozpocząć swoją przygodę z programowaniem. W tym kursie nauczysz się podstaw programowania w Lua, a także jak wykorzystać te umiejętności w świecie <font color="#1f917e"><b><i>Minecrafta</i></b></font>!</string>
+    <string name="l0_2">Przed przystąpieniem do nauki, ważne jest, aby upewnić się, że masz już zainstalowaną modyfikację ComputerCraft na swojej instancji gry Minecraft. Jeśli jeszcze tego nie zrobiłeś, instrukcję instalacji znajdziesz w lekcji 1 kursu.</string>
+    <string name="l0_3">Jeśli jeszcze nie wiesz, programowanie to nic innego jak tworzenie instrukcji, które mówią komputerowi, co ma robić. W tym kursie skupimy się na podstawowych konceptach programowania w języku Lua, takich jak zmienne, pętle, wyrażenia warunkowe, funkcje, a także ich zastosowanie w programowaniu w Minecraft.</string>
+    <string name="l0_4">Witaj w kursie nauki programowania w języku Lua z wykorzystaniem modyfikacji Computercraft w Minecraft!</string>
+    <string name="l0_5">Witaj w kursie nauki programowania w języku Lua z wykorzystaniem modyfikacji Computercraft w Minecraft!</string>
+
+
+    <string name="l7_1">Wyrażenia warunkowe pozwalają na wykonanie określonych działań w zależności od spełnienia określonych warunków. Czasami chcemy aby robot reagował tylko w określonych sytuacjach. Musimy mu powiedzieć kiedy (pod jakim warunkiem) ma wykonać dodatkowe czynności – przyda nam się do tego wyrażenie <font color="#8fbf9e"><b><i>JEŻELI</i></b></font>. W ComputerCraft mamy trzy podstawowe wyrażenia warunkowe: <font color="#8fbf9e"><b><i>IF</i></b></font>, <font color="#8fbf9e"><b><i>ELSE</i></b></font> oraz <font color="#8fbf9e"><b><i>ELSE IF</i></b></font>.</string>
+    <string name="l7_2">Wyrażenie <font color="#8fbf9e"><b><i>IF</i></b></font> umożliwia wykonanie pewnej instrukcji, jeśli określony warunek jest spełniony. Przykładowo, jeśli chcesz wykonać pewną instrukcję tylko wtedy, gdy robot wykryje przed sobą blok diamentu, można napisać kod:</string>
+    <string name="l7_3">Wyrażenie <font color="#8fbf9e"><b><i>ELSE</i></b></font> umożliwia wykonanie innej instrukcji, jeśli warunek w wyrażeniu <font color="#8fbf9e"><b><i>IF</i></b></font> nie jest spełniony. Przykładowo, jeśli chcesz wykonać instrukcję, jeśli sprawdzony przed robotem blok <font color="#7f0f1d"><b><i>NIE</i></b></font> jest blokiem diamentu:</string>
+    <string name="l7_4">Wyrażenie <font color="#8fbf9e"><b><i>ELSE IF</i></b></font> pozwala na sprawdzenie kolejnego warunku, jeśli warunek w wyrażeniu <font color="#8fbf9e"><b><i>IF</i></b></font> nie jest spełniony. Przykładowo, jeśli chcesz wykonać pewną instrukcję, jeśli wykryty blok to blok złota.</string>
+    <string name="l7_5">Przykłady wykonania powyższego programu:</string>
+
+
+    <string name="l8_1">Pętle w programowaniu pozwalają na wykonywanie określonych czynności wielokrotnie, bez potrzeby powtarzania kodu ręcznie. W tym momencie kursu jesteśmy już sobie w stanie wobrazić jak dużo czasu zajęłobynam ręczne ustawienie robota, aby ten na przykład wybudował most o długości 30 bloków.\nW aplikacji ComputerCraft mamy do dyspozycji trzy podstawowe pętle: pętlę <font color="#8fbf9e"><b><i>WHILE</i></b></font>, pętlę <font color="#8fbf9e"><b><i>FOR</i></b></font> oraz <font color="#8fbf9e"><b><i>REPEAT</i></b></font>.</string>
+    <string name="l8_2">Pętla <font color="#8fbf9e"><b><i>REPEAT</i></b></font> jest początkowo najłatwiejsza do zrozumienia. Pomiędzy znacznikami <font color="#8fbf9e"><b><i>REP</i></b></font> oraz <font color="#8fbf9e"><b><i>DO</i></b></font> wskazujemy ile razy nasz robot ma powtórzyć kod/czynności znajdujące się pomiędzy <font color="#8fbf9e"><b><i>DO</i></b></font> oraz <font color="#8fbf9e"><b><i>END</i></b></font>. Przykład prawidłowego użycia <font color="#8fbf9e"><b><i>REP</i></b></font> znajduje się po prawej stronie.</string>
+    <string name="l8_3">Kolejną pętlą jest pętla <font color="#8fbf9e"><b><i>FOR</i></b></font>. Pętla <font color="#8fbf9e"><b><i>FOR</i></b></font> służy do iterowania po elementach tabeli lub ciągu liczb. Przykład użycia znajduje się poniżej. W tym przykładzie pętla <font color="#8fbf9e"><b><i>FOR</i></b></font> iteruje po liczbach od <font color="#8fbf9e"><b><i>1</i></b></font> do <font color="#8fbf9e"><b><i>5</i></b></font>. W każdej iteracji zmienna <font color="#8fbf9e"><b><i>X</i></b></font> przyjmuje kolejną wartość z zakresu. W pętli <font color="#8fbf9e"><b><i>FOR</i></b></font> używa się trzech elementów: <font color="#8fbf9e"><b><i>zmiennej licznikowej, wartości początkowej i wartości końcowej.</i></b></font></string>
+    <string name="l8_4">Ostatnią pętlą na której się skupimy jest pętla <font color="#8fbf9e"><b><i>WHILE</i></b></font>. Przedstawiona została na rysunku po lewej stronie. Pętla <font color="#8fbf9e"><b><i>WHILE</i></b></font> wykonuje blok kodu wielokrotnie, dopóki warunek (pomiędzy <font color="#8fbf9e"><b><i>WHILE</i></b></font> oraz <font color="#8fbf9e"><b><i>DO</i></b></font>) jest spełniony. Pętla ta daje nam większą kontrolę nad tym kiedy zakończy się dany warunek, ponieważ sami decydujemy w jaki sposób zmienia się zmienna <font color="#8fbf9e"><b><i>X</i></b></font>.</string>
+    <string name="l8_5">Efekt wykorzystania pętli <font color="#8fbf9e"><b><i>FOR</i></b></font> możemy zobaczyć poniżej:</string>
+
+
+</resources>

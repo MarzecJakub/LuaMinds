@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LICENCJAT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lekcje">lekcje</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="appinfo">Aplikacja utworzona została jako część praktyczna pracy licencjackiej pod tytułem \"Aplikacja wspomagająca naukę programowania przez dzieci.\"\nAutor: Jakub Marzec\n\nZawartość aplikacji:\n-Lekcje: W której znajdują się treści teoretyczne dotyczące programowania,\n-Zadania: Przedstawiające treści oraz ilustracje zadań do wykonania,\n-Quiz: Quiz zawierający 5 losowo wybranych pytań z bazy dotyczących treści lekcji oraz zadań,\n-Osiągnięcia: Nagrody przedstawiające poziom naszego rozwoju w temacie quizu.\n\nWszystkie treści dotyczące programowania przedstawione w aplikacji opierają się na ich zastosowaniu w grze Minecraft przy pomocy modyfikacji ComputerCraft oraz ComputerCraftEdu - wykorzystując język Lua.
+    </string>
+
+
+</resources>

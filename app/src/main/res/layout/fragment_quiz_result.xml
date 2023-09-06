@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_main"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".quizResult">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/minepl"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="4"
+        android:shadowRadius="0.1"
+        android:textAlignment="center"
+        android:text="Twój wynik to:"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/quizIMGres"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:src="@drawable/quiz_res_5" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/minepl"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="4"
+        android:shadowRadius="0.1"
+        android:text="Historia wyników:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/bar_chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/backtomenu"
+        android:layout_marginTop="15dp"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:text="Powrót" />
+
+</LinearLayout>

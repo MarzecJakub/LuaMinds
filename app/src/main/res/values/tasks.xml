@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="t_5_1">Zmienne - Zadanie 1</string>
+    <string name="t_5_2">Zmienne - Zadanie 2</string>
+    <string name="t_5_3">Zmienne - Zadanie 3</string>
+    <string name="t_5_4">Zmienne - Zadanie 4</string>
+    <string name="t_5_5">Zmienne - Zadanie 5</string>
+
+    <string name="t_6_1">Bramki logiczne - Zadanie 1</string>
+    <string name="t_6_2">Bramki logiczne - Zadanie 2</string>
+    <string name="t_6_3">Bramki logiczne - Zadanie 3</string>
+
+
+    <string name="t_7_1">Wyrażenia warunkowe - Zadanie 1</string>
+    <string name="t_7_2">Wyrażenia warunkowe - Zadanie 2</string>
+    <string name="t_7_3">Wyrażenia warunkowe - Zadanie 3</string>
+    <string name="t_7_4">Wyrażenia warunkowe - Zadanie 4</string>
+    <string name="t_7_5">Wyrażenia warunkowe - Zadanie 5</string>
+
+    <string name="t_8_1">Pętle - Zadanie 1</string>
+    <string name="t_8_2">Pętle - Zadanie 2</string>
+    <string name="t_8_3">Pętle - Zadanie 3</string>
+    <string name="t_8_4">Pętle - Zadanie 4</string>
+    <string name="t_8_5">Pętle - Zadanie 5</string>
+
+
+
+
+
+    <string name="t_5_1_t">Zadanie najlepiej wykonać po przerobieniu lekcji nr 5. Przy użyciu robota z modyfikacji ComputerCraftEdu utwórz zmienna X która będzie przechowywała wynik działania a*b/c+d a następnie wyświetl jej zawartość.\na=374\nb=21\nc=17\nd=48</string>
+    <string name="t_5_2_t">2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_5_3_t">3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_5_4_t">4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_5_5_t">5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+
+    <string name="t_6_1_t">Zadanie najlepiej wykonać po przerobieniu lekcji nr 6. Przeanalizuj schematy redstone i zastanów się które dźwignie trzeba aktywować aby uruchomiła się lampa redstone. Dodatkowo na ZIELONO zaznaczone są bramki AND a na ŻÓŁTO bramki OR. Użyj najmniejszej możliwej ilości dźwigni!</string>
+    <string name="t_6_2_t">Zadanie najlepiej wykonać po przerobieniu lekcji nr 6. Przeanalizuj schematy redstone i zastanów się które dźwignie trzeba aktywować aby uruchomiła się lampa redstone. Dodatkowo na ZIELONO zaznaczone są bramki AND a na ŻÓŁTO bramki OR. Użyj najmniejszej możliwej ilości dźwigni!</string>
+    <string name="t_6_3_t">Zadanie najlepiej wykonać po przerobieniu lekcji nr 6. Zaawansowane konstrukcje łączą bramki AND (zielony) , OR (żółty) i NOT (czerwony). Które dźwignie trzeba pociągnąć aby otworzyć drzwi i uniknąć wybuchu TNT?</string>
+
+    <string name="t_7_1_t">1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_7_2_t">2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_7_3_t">3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_7_4_t">4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_7_5_t">Zadanie najlepiej wykonać po przerobieniu lekcji nr 9. W robocie z modyfikacji ComputerCraftEdu ułóż kod z rozsypanki – zgodnie z opisem. Robot ma sprawdzać czy ma coś pod sobą – jeśli ma to musi to wykopać, jeśli nic nie ma to schodzi w dół. </string>
+
+    <string name="t_8_1_t">Zadanie najlepiej wykonać po przerobieniu lekcji nr 8. Przy użyciu robota z modyfikacji ComputerCraftEdu oraz pomocy dowolnej wybranej pętli utwórz poniższy kształt\n(w kodzie możesz użyć tylko raz funkcji \"move forward\"):</string>
+    <string name="t_8_2_t">2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_8_3_t">3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_8_4_t">4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="t_8_5_t">5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+
+
+
+</resources>

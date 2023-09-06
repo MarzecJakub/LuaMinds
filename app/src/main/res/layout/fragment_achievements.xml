@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_main"
+    android:orientation="vertical"
+    tools:context=".Achievements">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/minepl"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="4"
+        android:shadowRadius="0.1"
+        android:text="Osiągnięcia"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="95dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:src="@drawable/break_img" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/numberQuiz"
+            android:layout_width="209dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:fontFamily="@font/minepl"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="4"
+            android:shadowRadius="0.1"
+            android:text="Ilość quizów: 50"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="72dp" />
+
+        <ImageView
+            android:id="@+id/numberQuizImg"
+            android:layout_width="28dp"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:src="@drawable/ph" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/pointsQuiz"
+            android:layout_width="209dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/minepl"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="4"
+            android:shadowRadius="0.1"
+            android:text="Zdobyte punkty: 50"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="72dp" />
+
+        <ImageView
+            android:id="@+id/pointsQuizImg"
+            android:layout_width="28dp"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:src="@drawable/ph" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/maxQuiz"
+            android:layout_width="209dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/minepl"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="4"
+            android:shadowRadius="0.1"
+            android:text="Maksymalny wynik: 50"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="72dp" />
+
+        <ImageView
+            android:id="@+id/maxQuizImg"
+            android:layout_width="28dp"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:src="@drawable/ph" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:src="@drawable/break_img" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/minepl"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="4"
+        android:shadowRadius="0.1"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:text="Kolejne odznaki za osiągnięcia dostępne są po osiągnięciu: 5,10,15,25,50 oraz 100 punktów w danej kategorii!\nOsiągnięcie za 'Zdobyte punkty' posiada ograniczenia 3x większe!" />
+
+
+</LinearLayout>

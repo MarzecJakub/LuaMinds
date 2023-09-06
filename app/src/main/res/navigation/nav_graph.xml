@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/przywitanie">
+
+    <fragment
+        android:id="@+id/przywitanie"
+        android:name="com.example.licencjat.Przywitanie"
+        android:label="fragment_przywitanie"
+        tools:layout="@layout/fragment_przywitanie" >
+        <action
+            android:id="@+id/action_przywitanie_to_menuStartu"
+            app:destination="@id/menuStartu" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuStartu"
+        android:name="com.example.licencjat.menuStart"
+        android:label="fragment_menu_startu"
+        tools:layout="@layout/fragment_menu_start" >
+        <action
+            android:id="@+id/action_menuStartu_to_lekcjeFragment"
+            app:destination="@id/lekcjeFragment" />
+        <action
+            android:id="@+id/action_menuStartu_to_quizFragment"
+            app:destination="@id/quizFragment" />
+        <action
+            android:id="@+id/action_menuStartu_to_tasksFragment"
+            app:destination="@id/tasksFragment" />
+        <action
+            android:id="@+id/action_menuStartu_to_achievements"
+            app:destination="@id/achievements" />
+        <action
+            android:id="@+id/action_menuStartu_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lekcjeFragment"
+        android:name="com.example.licencjat.lekcjeFragment"
+        android:label="fragment_lekcje"
+        tools:layout="@layout/fragment_lekcje" >
+        <action
+            android:id="@+id/action_lekcjeFragment_to_lesson8"
+            app:destination="@id/lesson8" />
+        <action
+            android:id="@+id/action_lekcjeFragment_to_lesson7"
+            app:destination="@id/lesson7" />
+        <action
+            android:id="@+id/action_lekcjeFragment_to_lesson0"
+            app:destination="@id/lesson0" />
+    </fragment>
+    <fragment
+        android:id="@+id/lesson0"
+        android:name="com.example.licencjat.Lessons.lesson0"
+        android:label="fragment_lesson0"
+        tools:layout="@layout/fragment_lesson0" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.licencjat.quizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_quizFragment_to_quizResult"
+            app:destination="@id/quizResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizResult"
+        android:name="com.example.licencjat.quizResult"
+        android:label="fragment_quiz_result"
+        tools:layout="@layout/fragment_quiz_result" >
+        <action
+            android:id="@+id/action_quizResult_to_menuStartu3"
+            app:popUpTo="@id/menuStartu" />
+        <argument
+            android:name="resultValue"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.example.licencjat.tasksFragment"
+        android:label="fragment_tasks"
+        tools:layout="@layout/fragment_tasks" >
+        <action
+            android:id="@+id/action_tasksFragment_to_tasksShow"
+            app:destination="@id/tasksShow" />
+    </fragment>
+    <fragment
+        android:id="@+id/tasksShow"
+        android:name="com.example.licencjat.tasksShow"
+        android:label="fragment_tasks_show"
+        tools:layout="@layout/fragment_tasks_show" >
+        <argument
+            android:name="taskID"
+            app:argType="integer" />
+        <argument
+            android:name="taskTitle"
+            app:argType="string" />
+        <argument
+            android:name="taskText"
+            app:argType="string" />
+        <argument
+            android:name="taskPic"
+            app:argType="integer" />
+        <argument
+            android:name="taskSol"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/achievements"
+        android:name="com.example.licencjat.Achievements"
+        android:label="fragment_achievements"
+        tools:layout="@layout/fragment_achievements" />
+    <fragment
+        android:id="@+id/lesson8"
+        android:name="com.example.licencjat.Lessons.lesson8"
+        android:label="fragment_lesson8"
+        tools:layout="@layout/fragment_lesson8" />
+    <fragment
+        android:id="@+id/lesson7"
+        android:name="com.example.licencjat.Lessons.lesson7"
+        android:label="fragment_lesson7"
+        tools:layout="@layout/fragment_lesson7" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.licencjat.infoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
