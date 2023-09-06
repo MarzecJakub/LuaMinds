@@ -1,1 +1,1 @@
-# LuaMinds
+# LuaMinds v1
